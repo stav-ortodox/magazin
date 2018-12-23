@@ -7,7 +7,7 @@ $monitorAsus = new Monitor (3, 'Asus', 5000, 1.5, 'Оргтехника', '19', 
 $monitorAcer = new Monitor (4, 'Acer', 6500, 1.5, 'Оргтехника', '17', 'IPS', '0');
 $headPhonesPanasonic = new HeadPhones (5, 'Panasonic', 2700, 0.2, 'Аксессуары', '60', 'Безпроводные', '0');
 
-echo "<pre>";
+
 //echo $monitorBenQ->getFullInfo();
 //echo $monitorBenQ->getInfo();
 //
@@ -23,8 +23,8 @@ echo "<pre>";
 //echo $headPhonesPanasonic->getFullInfo();
 //echo $headPhonesPanasonic->getInfo();
 
-$arrayProducts = [$monitorBenQ->getArray(), $headPhonesSamsung->getArray(), $monitorAsus->getArray(), $monitorAcer->getArray(), $headPhonesPanasonic->getArray()];
-foreach ($arrayProducts as $arrayProduct){
-    echo $arrayProduct;
-}
+//$arrayProducts = [$monitorBenQ->getArray(), $headPhonesSamsung->getArray(), $monitorAsus->getArray(), $monitorAcer->getArray(), $headPhonesPanasonic->getArray()];
+//foreach ($arrayProducts as $arrayProduct){
+//    echo $arrayProduct;
+//}
 
